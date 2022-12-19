@@ -1,0 +1,305 @@
+   *{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+   }
+   /*====common style start====*/
+   .container{
+	width:1170px;
+	margin:0 auto;
+	padding:0 15px;
+   }
+    .sec-title{
+	background-color:pink;
+	width:100%;
+	height:80px;
+	margin-bottom:40px;
+   }
+	
+	.justify-content-start{
+	   justify-content:flex-start !important;
+   }
+    .justify-content-end{
+	   justify-content:flex-end !important;
+   }
+    .justify-content-between{
+	   justify-content:space-between !important;
+   }
+    .justify-content-around{
+	   justify-content:space-around !important;
+   }
+    .justify-content-evenly{
+	   justify-content:space-evenly !important;
+   }
+   .align-items-start{
+	   align-items:flex-start !important;
+   }
+    .align-items-end{
+	   align-items:flex-end  !important;
+   }
+    .align-items-center{
+	   align-items:center  !important;
+   }
+    .align-items-baseline{
+	   align-items:baseline  !important;
+   }
+   
+    /*=============common style end =============*/
+   /*=====================header start =================*/
+		.topinfo{
+			background-color:grey;
+		}
+		.flexheader{
+			display:flex;
+			justify-content:space-between;	
+		}
+		.info{
+			background-color:pink;
+			width:40%;
+			height:40px;
+		}
+		.lang{
+			background-color:pink;
+			width:30%;
+			height:40px;
+		}
+		 /*=====================header end =================*/
+		/*===================== navbar start =================*/
+		.topbar{	
+			background-color:orange;
+			padding:20px 0;
+		}
+		.flexbar{
+			display:flex;
+			justify-content:space-between;	
+		}
+		.heading-sec{
+			background-color:pink;
+			width:20%;
+			height:40px;
+		}
+		.navbar{
+			background-color:pink;
+			width:55%;
+			height:40px;
+		}
+		.topbutton{
+			background-color:pink;
+			width:20%;
+			height:40px;
+		}
+         /*===================== navbar end =================*/
+		/*===================== banner start=================*/
+		.bannersection{	
+			background-color:grey;
+			padding:80px 0;
+		}
+		.flexbanner{
+			display:flex;
+			justify-content:space-between;
+		}
+		.bannercontent{
+			background-color:pink;
+			width:60%;
+			height:500px;
+		}
+		.bannerbutton{
+			background-color:pink;
+			width:30%;
+			height:200px;
+			align-self:center;
+		}
+		/*===================== banner end=================*/
+		/*===================== about sec start=================*/
+		.aboutsection{	
+			background-color:orange;
+			padding:20px 0;
+		}
+		.flexabout{
+			display:flex;
+			justify-content:space-between;
+		}
+		.aboutcontent{
+			background-color:pink;
+			width:48%;
+			height:500px;
+		}
+          /*========== about sec end==========*/
+		/*============ service start=============*/
+		.servicesection{	
+			background-color:grey;
+			padding:80px 0;
+		}
+		.flexservice{
+			display:flex;
+			justify-content:space-between;
+		}
+		.servicetitle{
+			background-color:pink;
+			width:100%;
+			height:60px;
+		}
+
+		.servicecontent{
+			background-color:pink;
+			width:30%;
+			height:300px;
+			
+		}
+          		/*============ service end=============*/
+		/*============= menu start============*/
+		.menusection{	
+			background-color:orange;
+			padding:80px 0;
+		}
+		
+		.menutitle{
+			background-color:pink;
+			width:100%;
+			height:40px;
+		}
+		.startmenu{
+			display:flex;
+		}
+		.menucontent{
+			background-color:pink;
+			width:100%;
+			height:500px;
+			margin-top:20px;
+		}
+		/*============= menu end============*/
+		/*===============special start =============*/
+		.specialsection{	
+			background-color:grey;
+			padding:80px 0;
+		}
+		.flexspecial{
+			display:flex;
+			justify-content:space-between;
+		}
+		.specialtitle{
+			background-color:pink;
+			width:100%;
+			height:80px;
+		}
+		.specialcontent{
+			background-color:pink;
+			width:30%;
+			height:300px;
+		}
+		/*===============special end =============*/
+		/*==============events start==============*/
+		.eventsection{	
+			background-color:orange;
+			padding:80px 0;
+		}
+		.flexevent{
+			display:flex;
+			justify-content:space-between;
+			
+		}
+		.eventtitle{
+			background-color:pink;
+			width:100%;
+			height:80px;
+		}
+		.eventcontent{
+			background-color:pink;
+			width:45%;
+			height:400px;
+		}
+		/*==============events end ==============*/
+		/*============== resrvation start============*/
+		.reservation{	
+			background-color:grey;
+			padding:80px 0;
+		}
+		.flexreservation{
+			display:flex;
+		}
+		.reservationtitle{
+			background-color:pink;
+			width:100%;
+			height:80px;
+		}
+		.reservationcontent{
+			background-color:pink;
+			width:100%;
+			height:400px;
+		}
+		/*============== resrvation end============*/
+		/*=============testmonial start============*/
+		.testmonial{	
+			background-color:orange;
+			padding:80px 0;
+		}
+		.flextestmonial{
+			display:flex;
+			justify-content:space-between;
+		}
+		.testmonialcontent{
+			background-color:pink;
+			width:30%;
+			height:350px;	
+		}
+		/*=============testmonial end============*/
+		/*===========gal1ery start==========*/
+		.gallery{	
+			background-color:grey;
+			padding:80px 0;
+		}
+		.flexgallery{
+			display:flex;
+			flex-wrap:wrap;
+		}
+		.gallerycontent{
+			background-color:pink;
+			width:25%;
+			height:300px;
+			border:1px solid black;
+		}
+				/*===========gal1ery end==========*/
+		/*=============chefs start=============*/
+		.chef-sec{	
+			background-color:orange;
+			padding:80px 0;
+		}
+		.flexchef{
+			display:flex;
+			justify-content:space-between;
+		}
+		.chefcontent{
+			background-color:pink;
+			width:30%;
+			height:300px;
+		}
+		/*=============chefs end=============*/
+		/*===========contant start============*/
+		.contact{	
+			background-color:grey;
+			padding:80px 0;
+		}
+		.contactmap{
+			background-color:pink;
+			width:100%;
+			height:400px;
+			margin-bottom:30px;
+		}
+		.flexcontact{
+			display:flex;
+			justify-content:space-between;
+			
+		}
+		.contactlocation{
+			background-color:pink;
+			width:40%;
+			height:400px;
+			
+		}
+		.contactform{
+			background-color:pink;
+			width:50%;
+			height:400px;
+		}
+		/*===========contant end============*/
+		
