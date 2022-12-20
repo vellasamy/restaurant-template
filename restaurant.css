@@ -302,4 +302,32 @@
 			height:400px;
 		}
 		/*===========contant end============*/
-		
+	/*===========footer start============*/
+        .footer-sec{
+			background-color:orange;
+	        padding:60px 0;
+		}
+        .restaurant-end{
+			display:flex;
+			justify-content:space-between;
+		}
+		.restaurant-content{
+			background-color:pink;
+			height:300px;
+			width:24%;
+		}
+		/*===========footer end============*/
+		/*====finish====*/
+		.design{
+			background-color:grey;
+	        padding:60px 0;
+		}
+		 .flexdesign{
+			display:flex;
+			justify-content:center;
+		}
+		.design-content{
+			background-color:pink;
+			height:100px;
+			width:50%;
+		}
